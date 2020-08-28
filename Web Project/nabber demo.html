@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Napber Demo</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    .napber{
+        text-align: right;
+        background-color: teal;
+        position: fixed;
+       left: 720px;
+      
+    }
+   .napber>div{
+       display: inline;
+       padding: 10px;
+       font-size: 34px;
+   }
+   .napber>div>a{
+       text-decoration: none;
+       color: black;
+       font-weight: bold;
+   }
+   .napber>div>a:hover{
+       color: red;
+   }
+   .dropdown{
+       display: inline-block;
+        position: relative;
+   }
+   .contact-menu{
+       position: absolute;
+       background-color:#f1f1f1;
+       padding: 5px;
+       width: 410px;
+       left: -180px;
+       top: 48px;
+       z-index: 1;
+       box-shadow: 1px 2px 4px black;
+       visibility: hidden;
+   }
+   .helpmenu{
+    left: -280px;
+   
+   }
+   .contact-menu>a{
+       display: block;
+       text-decoration: none;
+       font-size: 24px;
+       text-align: left;
+       color:black;
+       padding: 5px;
+       text-align: justify;
+   }
+   .contact-menu>a:hover{
+       background-color: blanchedalmond;
+       color:crimson;
+   }
+   .dropdown:hover .contact-menu{
+       visibility: visible;
+       
+   }
+ 
+   
+</style>
+<body>
+    <div class="napber">
+        <div><a href="http://127.0.0.1:5500/Web%20Project/nabber%20demo.html#">Home</a></div>
+        <div><a href="#">Tutorial</a></div>
+        <div> <a href="#">About</a></div>
+         <div class="dropdown">
+            <a href="#">Contact </a> 
+            <div class="contact-menu">
+                <a href="mailto:rahatul.ice.09.pust@gmail.com" target="blank"> &nbsp; Email : rahatul.ice.09.pust@gmail.com </a><hr>
+                <a href="http://studywithlove.com" target="_blank" rel="noopener noreferrer"> &nbsp; Website : Study with Love </a><hr>
+                <a href="tel:+8801790224950" target="blank">&nbsp; Mobile : +8801790-224950 </a><hr>
+            </div>
+         </div>
+        
+       <div class="dropdown"> 
+           <a href="#">Help</a>
+           <div class="contact-menu helpmenu">
+               <a href="#">This created by HTML and CSS Language. Reference by W3 School. Debloped by ® Md.Rahatul Islam</a>
+           </div>
+      </div>
+    </div>
+   
+</body>
+</html>

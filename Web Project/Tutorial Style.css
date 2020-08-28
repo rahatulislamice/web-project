@@ -1,0 +1,45 @@
+ /*Container Start*/
+ .container{
+    box-sizing: border-box;
+   
+   display: flex;
+   flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+   
+    
+}
+.tutorial-div1{
+    height: 400px;
+    
+    width: 400px;
+    margin: 20px;
+   background-color: darkviolet;
+   margin-top: 90px;
+   
+   cursor: pointer;
+   box-shadow: 1px 2px 4px black;
+    
+    
+}
+img{
+    height: 220px;
+    width: 400px;
+    
+}
+.tutorial-pra{
+    text-align: justify;
+    padding: 10px;
+    color: white;
+    font-family: 'monotype corsiva';
+    font-size: 18px;
+}
+.tutorial-hedding{
+    text-align: center;
+    font-family: castellar;
+    text-shadow:red 2px 2px;
+}
+.tutorial-div1:hover{
+    box-shadow: white 0px 10px 0px 10px;
+}
+  /*Container End*/

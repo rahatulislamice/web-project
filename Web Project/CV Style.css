@@ -1,0 +1,112 @@
+/*CV Start*/
+.cv-container{
+    
+
+    background-color:#E4F9F5 ;
+    max-width:85%;
+    margin:0 auto;
+    padding: 20px;
+    font-family:'Times new Roman';
+    border: 3px cyan solid;
+    border-bottom: none;
+    
+    
+ }
+ .cv-image{
+    height: 110px;
+    width: 100px;
+    border: 5px white solid;
+    border-radius: 50%;
+    float: left;
+   
+ }
+ .cv-header{
+    float: left;
+    padding: 30px;
+ }
+ .cv-h{
+    color:#11999e;
+ }
+ .cv-contact{
+    float: right;
+    padding-top: 30px;
+ 
+ }
+ .cv-contact p a{
+    text-decoration: none;
+    color:#11999e;
+ }
+ .cv-contact p a:hover{
+    color: red;
+ }
+ .cv-clear{
+    clear: both;
+ }
+ .cv-horizontal{
+    border: black 3px solid;
+    border-bottom: none;
+ }
+ .cv-section{
+ 
+    padding-top: 20px;
+ }
+ .cv-left-content{
+    width: 30%;
+    float: left;
+    text-align: justify;
+    
+ }
+ .cv-right-content{
+    width: 70%;
+    float: left;
+    text-align: justify;
+ }
+ .cv-edu-left{
+    width: 50%;
+    float: left;
+    text-align: justify;
+    padding-right: 15px;
+    
+ }
+ .cv-edu-right{
+    width: 50%;
+    float: left;
+    text-align: justify;
+    padding-left: 15px;
+   
+ }
+ .cv-footer div a{
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+    cursor: default;
+   
+ }
+ .cv-footerdemo>a>img{
+    height: 40px;
+    width: 40px;
+   cursor: pointer;
+  
+ }
+ .cv-footerdemo>a>img:hover{
+    background-color: darkgray;
+    border-radius: 40%;
+    
+ }
+ .cv-footer div p{
+    
+    padding-top: 30px;
+    color: white;
+   
+ }
+ .cv-footerdemo{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    width: 85%;
+    margin: 0 auto;
+    border:3px solid cyan;
+    border-top: none;
+   
+ }
+ /*CV End*/

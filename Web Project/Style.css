@@ -1,0 +1,224 @@
+ /*Body Start*/
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("Images/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-size: 1368px 635px;
+}
+/*Body End*/
+ 
+ /*Hedder Start*/
+
+ /*Napber Start*/
+.napber{
+    text-align: right;
+    position: fixed;
+    background-color: rgba(28, 32, 32, 0.496);
+    margin-top: 20px;
+    width: 100%;
+}
+.napber>div{
+   display: inline;
+   padding: 0px 10px;
+   font-size: 34px;
+}
+.napber>div>a{
+   text-decoration: none;
+   color: wheat;
+   font-weight: bold;
+}
+.napber>div>span{
+   text-decoration: none;
+   color: wheat;
+   font-weight: bold;
+}
+.napber>div>button{
+   background-color:rgba(28, 32, 32, 0.496) ;
+   border: none;
+   height: 38px;
+   width: 50px;
+  border-radius: 40%;
+}
+.napber>div>a:hover{
+   color: red;
+   background-color: rgb(107, 100, 100);
+}
+.napber>div>span:hover{
+   color: red;
+   background-color: rgb(107, 100, 100);
+   cursor: pointer;
+}
+.dropdown{
+   display: inline-block;
+    position: relative;
+}
+.dropdown-id{
+   display: inline-block;
+    position: relative;
+}
+.dropdown-position{
+   float: left;
+    margin-left: 15px;
+    width: 50px;
+    height: 40px;
+}
+.dropdown-list{
+    position: relative;
+}
+.contact-menu{
+   position: absolute;
+   background-color:#f1f1f1;
+   padding: 5px;
+   width: 410px;
+   left: -180px;
+   top: 35px;
+   z-index: 1;
+   box-shadow: 1px 2px 4px black;
+  visibility: hidden;
+}
+.helpmenu{
+    left: -325px;
+}
+.menu-list{
+left: -10px;
+top: 40px;
+width: 150px;
+}
+.dropdown-list-position{
+   left: 130px;
+   top: 15px;
+   position: absolute;
+   background-color:#f1f1f1;
+   padding: 5px;
+   width: 410px;
+   z-index: 1;
+   box-shadow: 1px 2px 4px black;
+   visibility: hidden;
+}
+.dropdown-list-position>a{
+   display: block;
+   text-decoration: none;
+   font-size: 24px;
+   text-align: left;
+   color:black;
+   padding: 5px;
+   text-align: justify;
+}
+.contact-menu>a{
+   display: block;
+   text-decoration: none;
+   font-size: 24px;
+   text-align: left;
+   color:black;
+   padding: 5px;
+   text-align: justify;
+}
+.dropdown-list>span{
+   display: block;
+   text-decoration: none;
+   font-size: 24px;
+   text-align: left;
+   color:black;
+   padding: 5px;
+   text-align: justify;
+  
+}
+.menu-image{
+    height: 38px;
+    width: 50px;
+    cursor: pointer;
+}
+.contact-menu>a:hover{
+   background-color:#ddd;
+   color:crimson;
+}
+.dropdown-list>span:hover{
+   background-color:lightgray;
+   color:crimson;
+   cursor: pointer;
+}
+.dropdown-list-position>a:hover{
+   background-color:lightgray;
+   color:crimson;
+}
+.dropdown:hover .contact-menu{
+   visibility: visible;
+}
+.dropdown-id:focus-within .contact-menu{
+   visibility: visible;
+}
+.dropdown-list:hover .dropdown-list-position{
+   visibility: visible;
+}
+/*Napber End*/
+
+
+
+
+ /*Headder End*/
+
+
+ /*Footer start*/
+ .footer-div{
+    width: 100%;
+    
+    background-color: black;
+    padding: 20px;
+}
+.footer-menu{
+    width: 70%;
+    margin: auto;
+}
+.footer-menu>ol{
+    display: grid;
+    color: white;
+    font-size: 24px;
+   flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: center;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+.footer-menu>ol>li>a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+.footer-menu>ol>li>a:hover{
+    color: red;
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+}
+.footer-link>a{
+    padding: 50px;
+    padding-bottom: 0px;
+    cursor: default;
+}
+.footer-link>a>img{
+    height: 45px;
+    width: 45px;
+   cursor: pointer;
+   border: none;
+}
+.footer-link>a>img:hover{
+   background-color: darkslategray;
+   border-radius: 35%;
+}
+.footer-copyright{
+    color:white;
+    font-size: 28px;
+    padding: 10px;
+}
+.footer-copyright>span{
+   font-family: 'Monotype corsiva';
+}
+/*Footer End*/
+
